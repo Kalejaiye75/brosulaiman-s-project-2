@@ -1,0 +1,50 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: rgb(224, 227, 230);
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+main {
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    column-gap: 1.5rem;
+    display: flex;
+    width: fit-content;
+    height: 250px;
+
+}
+.first-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img {
+    width: 60%;
+    border-radius: 50%;
+}
+input {
+    outline: none;
+    border: none;
+}
+textarea {
+    border: none;
+    outline: none;
+}
+select{
+    border: none;
+    outline: none;
+}
+
+li {
+   list-style-type: georgian;
+}
+.place-of-xperience {
+    font-size: 19px;
+}
